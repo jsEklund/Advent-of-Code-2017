@@ -1,14 +1,14 @@
 var day1_2;
 (function (day1_2) {
-    var fs = require("fs");
+    var fs = require('fs');
     var data = fs.readFileSync('src/day1/input.txt', 'utf8');
     function run() {
         var first;
         var match = 0;
         var temp;
         var length = data.length;
-        var half = data.length / 2;
-        for (var i = 0; i <= data.length; i++) {
+        var half = length / 2;
+        for (var i = 0; i <= length; i++) {
             var number = Number(data[i]);
             var position = i + half;
             var pos = 0;

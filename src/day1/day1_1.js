@@ -1,6 +1,6 @@
 var day1_1;
 (function (day1_1) {
-    var fs = require("fs");
+    var fs = require('fs');
     var data = fs.readFileSync('src/day1/input.txt', 'utf8');
     function run() {
         var first;

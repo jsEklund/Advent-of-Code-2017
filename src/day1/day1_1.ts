@@ -1,14 +1,14 @@
 namespace day1_1 {
     
-    let fs = require("fs");
+    let fs = require('fs');
     let data = fs.readFileSync('src/day1/input.txt','utf8');
 
     // test
 
-    // let data = "1122"; // 3
-    // let data = "1111"; // 4
-    // let data = "1234"; // 0
-    // let data = "91212129;" // 9
+    // let data = '1122'; // 3
+    // let data = '1111'; // 4
+    // let data = '1234'; // 0
+    // let data = '91212129;' // 9
 
 
     function run() {
@@ -43,4 +43,4 @@ namespace day1_1 {
 
     run()
 
-    }
+}
